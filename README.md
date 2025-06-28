@@ -25,18 +25,19 @@ If you don't have Postman installed, you can download it from:
 
 ### 3. Test the /predict Endpoint
 In Postman:
-Select POST as the request method. and then Enter the URL:
+* Select POST as the request method
+* and then Enter the URL:
 ```bash
 http://127.0.0.1:5000/predict
 ```
-Go to the Body tab
-Choose raw and select JSON as the format
+* Go to the Body tab
+* Choose raw and select JSON as the format
 Enter input data test
 ```bash
 {
-  "ap_1": 75,
+  "ap_1": -75,
   "ap_2": -64,
-  "ap_3": 22
+  "ap_3": -22
 }
 ```
 
