@@ -32,8 +32,8 @@ http://127.0.0.1:5000/predict
 ```
 * Go to the Body tab
 * Choose raw and select JSON as the format
-Enter input data test
-```bash
+* Enter the input data test as shown below :
+```json
 {
   "ap_1": -75,
   "ap_2": -64,
